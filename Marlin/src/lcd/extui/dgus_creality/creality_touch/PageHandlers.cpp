@@ -129,7 +129,12 @@ void LevelingModeHandler(DGUS_VP_Variable &var, unsigned short buttonValue) {
 
         case VP_BUTTON_MAINENTERKEY:
             // Go to leveling screen
-            ExtUI::injectCommands_P("G28 U0\nG29 U0");
+            // G34 may not be recognized, but will be ignored
+            #if ENABLED(Z_STEPPER_AUTO_ALIGN)
+                ExtUI::injectCommands_P("G28 U0\nG34\nG29 U0");
+            #else
+                ExtUI::injectCommands_P("G28 U0\nG29 U0");
+            #endif
 #if HAS_MESH
             ScreenHandler.ResetMeshValues();
 #endif
