@@ -116,7 +116,7 @@
 //
 // Misc
 //
-#define BEEPER_PIN                          PB15
+//#define BEEPER_PIN                          PB15
 #define LED_PIN                             -1
 #define POWER_LOSS_PIN                      PA6
 #define FIL_RUNOUT_PIN                      PA5
