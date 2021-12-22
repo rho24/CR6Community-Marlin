@@ -19,9 +19,9 @@ The following examples are available:
 - [BTT SKR CR6 with Creality stock TFT](./cr6-max-btt-skr-cr6-with-stock-creality-tft)
 
 **Other printers:**
+- [Anycubic Vyper](./anycubic-vyper)
 - [Ender 3 Pro with v4.2.7 board and BLTouch](./ender-3-pro-v427-board-bltouch)
 - [Sovol SV-01 with touch screen and BLTouch](./sovol-sv-01)
-- [Anycubic Vyper](./anycubic-vyper)
 - [CR200b with v4.2.5 board and stock TFT](./cr200b-stock-mb)
 
 ## Helper scripts
