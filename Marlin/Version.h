@@ -47,7 +47,9 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-#define CUSTOM_MACHINE_NAME SHORT_BUILD_VERSION
+#ifndef CUSTOM_MACHINE_NAME
+    #define CUSTOM_MACHINE_NAME SHORT_BUILD_VERSION
+#endif
 #define MACHINE_NAME CUSTOM_MACHINE_NAME
 
 /**
