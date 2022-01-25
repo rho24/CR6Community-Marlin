@@ -61,6 +61,11 @@
 #define Z_STOP_PIN                          ZL_STOP_PIN
 #endif
 
+
+#define AUTO_LEVEL_TX_PIN                   PB13
+#define AUTO_LEVEL_RX_PIN                   PB12
+#define PROBE_ACTIVATION_SWITCH_PIN         PB2
+
 #define X_MIN_PIN                           PA7
 #define X_MAX_PIN                           PC6
 #define Y_MIN_PIN                           PC5
@@ -122,9 +127,6 @@
 #define FIL_RUNOUT_PIN                      PA5
 #define CASE_LIGHT_PIN                      PA13
 #define POWER_MONITOR_VOLTAGE_PIN           PA6
-
-#define AUTO_LEVEL_TX_PIN                   PB13
-#define AUTO_LEVEL_RX_PIN                   PB12
 
 //
 // Probe
