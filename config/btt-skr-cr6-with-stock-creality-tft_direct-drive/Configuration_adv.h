@@ -1721,7 +1721,7 @@
       //#define TOUCH_UI_UTF8_FRACTIONS     // ¼ ½ ¾
       //#define TOUCH_UI_UTF8_SYMBOLS       // µ ¶ ¦ § ¬
     #endif
-    
+
     // Cyrillic character set, costs about 27KiB of flash
     //#define TOUCH_UI_UTF8_CYRILLIC_CHARSET
   #endif
@@ -2572,7 +2572,7 @@
   #endif
 
   #if AXIS_IS_TMC(E0)
-    #define E0_CURRENT      600
+    #define E0_CURRENT      700
     #define E0_MICROSTEPS    16
     #define E0_RSENSE         0.11
     #define E0_CHAIN_POS     -1
